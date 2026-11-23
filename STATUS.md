@@ -8,7 +8,7 @@
 - **Фаза сейчас:** **content-prep** + временный preview на GitHub Pages
 - **Цель чата:** показать заказчику черновик каталога; дальше — следующий объект по описи
 - **Критерий готово:** публичная preview-ссылка GitHub Pages; кейсы в `content/cases/` + `assets/`
-- **Лог / прогресс:** ✅ UI-pass 2026-11-20; ✅ case UX; ✅ 6 пар (Гринвич / Яркий / Уфимский Кремль / Природная / Пархоменко / пр-т Октября); ✅ опись Я.Диска; ✅ **временный деплой GitHub Pages** (repo `renova-catalog`, allowlist `_site/`)
+- **Лог / прогресс:** ✅ UI-pass 2026-11-20; ✅ case UX; ✅ 6 пар (Гринвич / Яркий / Уфимский Кремль / Природная / Пархоменко / пр-т Октября); ✅ опись Я.Диска; ✅ **временный preview:** https://maksimrafikov.github.io/renova-catalog/ (repo `MaksimRafikov/renova-catalog`, Actions → `_site/`)
 - **Блокер:** выбор следующих объектов из описи (полная волна 15); финальный поддомен — отдельно
 - **Samples / ключевые файлы:** `docs/inventory-design-projects-yadisk.xlsx`, `content/cases/`, `.github/workflows/deploy-pages.yml`, `scripts/export-public-site.py`
 - **Не делать без запроса:** финальный DNS/поддомен; полный медиа-batch 15 без выбора; обещать сроки; имя менеджера в UI
