@@ -1,0 +1,193 @@
+{
+  "order": 51,
+  "id": "parkhomenko-41-repair",
+  "title": "Пархоменко · 41 м²",
+  "address": "Уфа, ул. Пархоменко",
+  "areaSqm": 41,
+  "areaLabel": "41 м²",
+  "roomsLabel": "1-комнатная",
+  "branch": "repair",
+  "pairId": "parkhomenko-41",
+  "format": "Ремонт под ключ",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "Пархоменко",
+  "tags": [
+    "41 м²",
+    "Пархоменко",
+    "ремонт"
+  ],
+  "rooms": [
+    "Прихожая",
+    "Кухня",
+    "Спальня",
+    "Лоджия",
+    "Санузел"
+  ],
+  "hasProjectRender": false,
+  "hasVideo": false,
+  "cover": "assets/parkhomenko-41-repair/after-20.jpg",
+  "summary": "Ремонт под ключ квартиры 41 м² на ул. Пархоменко по дизайн-проекту: фото до и после.",
+  "task": "Реализовать ремонт квартиры по утверждённому дизайн-проекту.",
+  "objectDescription": "Фотофиксация результата ремонта и состояния до начала работ. По объекту также есть полный дизайн-проект с визуализациями.",
+  "workList": [
+    "Ремонт под ключ",
+    "Реализация дизайн-проекта",
+    "Отделка помещений"
+  ],
+  "plan": {
+    "src": "assets/parkhomenko-41-repair/plan-1.png",
+    "alt": "План квартиры · Пархоменко · 41 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "41 м²",
+    "Фото до и после",
+    "Есть дизайн-проект"
+  ],
+  "clientFit": [
+    "Квартира около 41 м² на ул. Пархоменко",
+    "Нужен ремонт с дизайном"
+  ],
+  "gallery": [
+    {
+      "src": "assets/parkhomenko-41-repair/after-20.jpg",
+      "alt": "Пархоменко · после ремонта · кухня",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-15.jpg",
+      "alt": "Пархоменко · после ремонта · кухня-гостиная",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-1.jpg",
+      "alt": "Пархоменко · после ремонта · санузел",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-2.jpg",
+      "alt": "Пархоменко · после ремонта · фото 2",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-3.jpg",
+      "alt": "Пархоменко · после ремонта · фото 3",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-4.jpg",
+      "alt": "Пархоменко · после ремонта · фото 4",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-5.jpg",
+      "alt": "Пархоменко · после ремонта · спальня",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-6.jpg",
+      "alt": "Пархоменко · после ремонта · спальня",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-7.jpg",
+      "alt": "Пархоменко · после ремонта · фото 7",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-8.jpg",
+      "alt": "Пархоменко · после ремонта · лоджия",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-9.jpg",
+      "alt": "Пархоменко · после ремонта · фото 9",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-10.jpg",
+      "alt": "Пархоменко · после ремонта · фото 10",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-11.jpg",
+      "alt": "Пархоменко · после ремонта · спальня",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-12.jpg",
+      "alt": "Пархоменко · после ремонта · фото 12",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-13.jpg",
+      "alt": "Пархоменко · после ремонта · спальня",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-14.jpg",
+      "alt": "Пархоменко · после ремонта · фото 14",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-16.jpg",
+      "alt": "Пархоменко · после ремонта · фото 16",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-17.jpg",
+      "alt": "Пархоменко · после ремонта · фото 17",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-18.jpg",
+      "alt": "Пархоменко · после ремонта · фото 18",
+      "caption": ""
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/after-19.jpg",
+      "alt": "Пархоменко · после ремонта · фото 19",
+      "caption": ""
+    }
+  ],
+  "beforeGallery": [
+    {
+      "src": "assets/parkhomenko-41-repair/before-1.jpg",
+      "alt": "Пархоменко · до ремонта · фото 1",
+      "caption": "До"
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/before-2.jpg",
+      "alt": "Пархоменко · до ремонта · фото 2",
+      "caption": "До"
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/before-3.jpg",
+      "alt": "Пархоменко · до ремонта · фото 3",
+      "caption": "До"
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/before-4.jpg",
+      "alt": "Пархоменко · до ремонта · фото 4",
+      "caption": "До"
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/before-5.jpg",
+      "alt": "Пархоменко · до ремонта · фото 5",
+      "caption": "До"
+    },
+    {
+      "src": "assets/parkhomenko-41-repair/before-6.jpg",
+      "alt": "Пархоменко · до ремонта · фото 6",
+      "caption": "До"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

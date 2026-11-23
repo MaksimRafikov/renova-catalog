@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#222849" />
+    <title>Кейс | РеНова+</title>
+    <meta
+      name="description"
+      content="Подробный кейс ремонта и дизайна РеНова+. Страница переехала в раздел /cases/."
+    />
+    <link rel="icon" type="image/png" href="assets/brand/logo.png" />
+    <link rel="stylesheet" href="css/styles.css?v=c6e0bdce8b" />
+    <script>
+      (function () {
+        var id = new URLSearchParams(window.location.search).get("id") || "";
+        if (/^[a-z0-9-]+$/.test(id)) {
+          window.location.replace("cases/" + id + "/" + window.location.hash);
+        } else {
+          window.location.replace("index.html");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="container section">
+        <h1>Страница кейса переехала</h1>
+        <p class="lead">Сейчас вы будете перенаправлены на новую страницу кейса.</p>
+        <p><a class="btn btn--primary" href="index.html">Открыть каталог</a></p>
+      </div>
+    </main>
+  </body>
+</html>

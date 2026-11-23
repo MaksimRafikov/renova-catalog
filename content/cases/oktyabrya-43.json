@@ -1,0 +1,172 @@
+{
+  "order": 60,
+  "id": "oktyabrya-43",
+  "title": "пр-т Октября · 43 м²",
+  "address": "Уфа, пр-т Октября",
+  "areaSqm": 43,
+  "areaLabel": "43 м²",
+  "roomsLabel": "1-комнатная",
+  "branch": "design",
+  "pairId": "oktyabrya-43-repair",
+  "format": "Дизайн-проект",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "пр-т Октября",
+  "tags": [
+    "43 м²",
+    "пр-т Октября",
+    "вторичка",
+    "дизайн"
+  ],
+  "rooms": [
+    "Гостиная",
+    "Кухня",
+    "Прихожая",
+    "Спальня",
+    "Санузел"
+  ],
+  "hasProjectRender": true,
+  "hasVideo": false,
+  "cover": "assets/oktyabrya-43/after-1.jpg",
+  "summary": "Дизайн-проект квартиры 43 м² на пр-т Октября (вторичка): гостиная с рабочей зоной, кухня, прихожая, спальня и санузел.",
+  "task": "Спроектировать современный интерьер компактной однокомнатной квартиры во вторичном фонде с зонированием гостиной и удобной кухней.",
+  "objectDescription": "Визуализации по помещениям: гостиная с ТВ и кабинетом, кухня с обеденной зоной, прихожая, спальня и санузел.",
+  "workList": [
+    "Дизайн-проект интерьера",
+    "Визуализации помещений",
+    "Планировочное решение"
+  ],
+  "plan": {
+    "src": "assets/oktyabrya-43/plan-1.png",
+    "alt": "План квартиры · пр-т Октября · 43 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "43 м²",
+    "Полный комплект визуализаций",
+    "Есть реализованный ремонт"
+  ],
+  "clientFit": [
+    "Квартира около 43 м² на пр-т Октября / вторичка",
+    "Нужен дизайн с последующим ремонтом"
+  ],
+  "gallery": [
+    {
+      "src": "assets/oktyabrya-43/after-1.jpg",
+      "alt": "пр-т Октября · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-2.jpg",
+      "alt": "пр-т Октября · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-3.jpg",
+      "alt": "пр-т Октября · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-4.jpg",
+      "alt": "пр-т Октября · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-5.jpg",
+      "alt": "пр-т Октября · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-6.jpg",
+      "alt": "пр-т Октября · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-7.jpg",
+      "alt": "пр-т Октября · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-8.jpg",
+      "alt": "пр-т Октября · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-9.jpg",
+      "alt": "пр-т Октября · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-10.jpg",
+      "alt": "пр-т Октября · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-11.jpg",
+      "alt": "пр-т Октября · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-12.jpg",
+      "alt": "пр-т Октября · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-13.jpg",
+      "alt": "пр-т Октября · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-14.jpg",
+      "alt": "пр-т Октября · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-15.jpg",
+      "alt": "пр-т Октября · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-16.jpg",
+      "alt": "пр-т Октября · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-17.jpg",
+      "alt": "пр-т Октября · Санузел",
+      "caption": "Санузел"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-18.jpg",
+      "alt": "пр-т Октября · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-19.jpg",
+      "alt": "пр-т Октября · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-20.jpg",
+      "alt": "пр-т Октября · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-21.jpg",
+      "alt": "пр-т Октября · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/oktyabrya-43/after-22.jpg",
+      "alt": "пр-т Октября · Спальня",
+      "caption": "Спальня"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

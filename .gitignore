@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Public export
+_site/
+
+# Agent scratch (локально; atoms можно коммитить по желанию)
+.ecc/session/offload/
+
+# Сырой inbox целиком — не в публичный preview (в прод только assets/)
+inbox/**
+!inbox/README.md
+
+# Сырьё клиента / переписка / брендбук — не в git (в прод идут обработанные assets/)
+наполнение сайта/
+Фирменный стиль/
+ChatExport_*/
+docs/*.docx
+docs/*.xlsx
+*.pdf
+1cfae0b9-*.jpg
+
+# Коммерческое досье — не в публичный preview-репозиторий
+CLIENT.md
+
+# Node (если выберут Ellis-стек)
+node_modules/
+web/.next/
+web/out/

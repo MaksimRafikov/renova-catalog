@@ -1,0 +1,212 @@
+{
+  "order": 20,
+  "id": "yarkiy-76",
+  "title": "ЖК Яркий · 76 м²",
+  "address": "Уфа, ЖК Яркий",
+  "areaSqm": 76,
+  "areaLabel": "76 м²",
+  "roomsLabel": "2-комнатная",
+  "branch": "design",
+  "pairId": "yarkiy-76-repair",
+  "format": "Дизайн-проект",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "ЖК Яркий",
+  "tags": [
+    "76 м²",
+    "ЖК Яркий",
+    "дизайн"
+  ],
+  "rooms": [
+    "Кухня-гостиная",
+    "Прихожая",
+    "Спальня",
+    "Кабинет",
+    "Санузел 1",
+    "Санузел 2"
+  ],
+  "hasProjectRender": true,
+  "hasVideo": false,
+  "cover": "assets/yarkiy-76/after-1.jpg",
+  "summary": "Дизайн-проект квартиры 76 м² в ЖК Яркий: кухня-гостиная, спальня, кабинет и два санузла.",
+  "task": "Спроектировать светлый современный интерьер с удобной планировкой зон для семьи.",
+  "objectDescription": "Визуализации по всем ключевым помещениям: от кухни-гостиной и прихожей до спальни, кабинета и санузлов.",
+  "workList": [
+    "Дизайн-проект интерьера",
+    "Визуализации помещений",
+    "Планировочное решение"
+  ],
+  "plan": {
+    "src": "assets/yarkiy-76/plan-1.png",
+    "alt": "План квартиры · ЖК Яркий 76 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "76 м²",
+    "Полный комплект визуализаций",
+    "Есть реализованный ремонт"
+  ],
+  "clientFit": [
+    "Квартира около 76 м² в ЖК Яркий",
+    "Нужен дизайн с последующим ремонтом"
+  ],
+  "gallery": [
+    {
+      "src": "assets/yarkiy-76/after-1.jpg",
+      "alt": "ЖК Яркий · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/yarkiy-76/after-2.jpg",
+      "alt": "ЖК Яркий · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/yarkiy-76/after-3.jpg",
+      "alt": "ЖК Яркий · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/yarkiy-76/after-4.jpg",
+      "alt": "ЖК Яркий · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/yarkiy-76/after-5.jpg",
+      "alt": "ЖК Яркий · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/yarkiy-76/after-6.jpg",
+      "alt": "ЖК Яркий · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/yarkiy-76/after-7.jpg",
+      "alt": "ЖК Яркий · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/yarkiy-76/after-8.jpg",
+      "alt": "ЖК Яркий · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/yarkiy-76/after-9.jpg",
+      "alt": "ЖК Яркий · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/yarkiy-76/after-10.jpg",
+      "alt": "ЖК Яркий · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/yarkiy-76/after-11.jpg",
+      "alt": "ЖК Яркий · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/yarkiy-76/after-12.jpg",
+      "alt": "ЖК Яркий · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/yarkiy-76/after-13.jpg",
+      "alt": "ЖК Яркий · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/yarkiy-76/after-14.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-15.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-16.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-17.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-18.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-19.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-20.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-21.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-22.jpg",
+      "alt": "ЖК Яркий · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/yarkiy-76/after-23.jpg",
+      "alt": "ЖК Яркий · Санузел 1",
+      "caption": "Санузел 1"
+    },
+    {
+      "src": "assets/yarkiy-76/after-24.jpg",
+      "alt": "ЖК Яркий · Санузел 1",
+      "caption": "Санузел 1"
+    },
+    {
+      "src": "assets/yarkiy-76/after-25.jpg",
+      "alt": "ЖК Яркий · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/yarkiy-76/after-26.jpg",
+      "alt": "ЖК Яркий · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/yarkiy-76/after-27.jpg",
+      "alt": "ЖК Яркий · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/yarkiy-76/after-28.jpg",
+      "alt": "ЖК Яркий · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/yarkiy-76/after-29.jpg",
+      "alt": "ЖК Яркий · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/yarkiy-76/after-30.jpg",
+      "alt": "ЖК Яркий · Санузел 2",
+      "caption": "Санузел 2"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

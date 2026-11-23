@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>РеНова+ — предложения по дизайну каталога</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #222849;
+      --sky: #49A1DA;
+      --slate: #73859f;
+      --mist: #ececec;
+      --graphite: #575756;
+      --white: #fff;
+      --border: #d5dbe3;
+      --ok: #2a7a4b;
+      --warn: #9a6b12;
+      --font: "Source Sans 3", sans-serif;
+      --display: "Manrope", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      color: var(--navy);
+      background: var(--mist);
+      line-height: 1.55;
+    }
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      background: var(--navy); color: var(--white);
+      padding: 14px 20px;
+      display: flex; flex-wrap: wrap; gap: 12px 24px;
+      align-items: center; justify-content: space-between;
+    }
+    .topbar strong { font-family: var(--display); font-size: 1.05rem; }
+    .topbar nav { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 0.92rem; }
+    .topbar a { color: #cfe8f7; text-decoration: none; }
+    .topbar a:hover { color: #fff; text-decoration: underline; }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 18px 80px; }
+    h1, h2, h3 { font-family: var(--display); line-height: 1.25; margin: 0 0 0.5em; }
+    h1 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+    h2 { font-size: 1.35rem; margin-top: 0; }
+    h3 { font-size: 1.08rem; }
+    p { margin: 0 0 0.85em; color: var(--graphite); }
+    .lead { font-size: 1.12rem; color: var(--navy); max-width: 42em; }
+    section.block {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 22px 24px;
+      margin: 22px 0;
+      scroll-margin-top: 72px;
+    }
+    .tag {
+      display: inline-block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+    .tag-rec { background: #e5f4ec; color: var(--ok); }
+    .tag-alt { background: #eef3f8; color: var(--slate); }
+    .tag-ask { background: #fff3d6; color: var(--warn); }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 760px) { .grid-2 { grid-template-columns: 1fr; } }
+    .card-soft {
+      background: #f7f8fa;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .card-soft h3 { margin-bottom: 6px; }
+    ul.clean { margin: 0; padding-left: 1.15em; color: var(--graphite); }
+    ul.clean li { margin: 0.35em 0; }
+    .vs {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 12px;
+      align-items: stretch;
+    }
+    @media (max-width: 760px) {
+      .vs { grid-template-columns: 1fr; }
+      .vs .mid { display: none; }
+    }
+    .vs .mid {
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--display); font-weight: 700; color: var(--slate);
+    }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+    .pill {
+      font-family: var(--display);
+      font-size: 0.86rem; font-weight: 600;
+      padding: 8px 14px; border-radius: 999px;
+      border: 1px solid var(--border); background: #fff; color: var(--navy);
+    }
+    .pill.on { background: var(--navy); color: #fff; border-color: var(--navy); }
+    .pill.sky { background: var(--sky); color: #fff; border-color: var(--sky); }
+    .pill.ghost { background: transparent; color: var(--slate); }
+    .swatches { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+    .swatch {
+      width: 92px; border-radius: 10px; overflow: hidden;
+      border: 1px solid var(--border); background: #fff;
+      font-size: 0.72rem; text-align: center;
+    }
+    .swatch i { display: block; height: 42px; }
+    .swatch span { display: block; padding: 6px 4px; color: var(--graphite); }
+    .wire {
+      border: 1px dashed #b8c2d0;
+      background: #fafbfc;
+      border-radius: 12px;
+      padding: 12px;
+      margin-top: 12px;
+    }
+    .wire-label {
+      font-family: var(--display);
+      font-size: 0.75rem; font-weight: 700;
+      color: var(--slate); margin-bottom: 8px;
+      text-transform: uppercase; letter-spacing: 0.03em;
+    }
+    /* Fake UI mocks */
+    .mock-chrome {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 10px; padding: 8px 10px; background: #fff;
+      border: 1px solid var(--border); border-radius: 8px; margin-bottom: 10px;
+      font-size: 0.78rem;
+    }
+    .mock-logo {
+      width: 72px; height: 22px; border-radius: 4px;
+      background: linear-gradient(90deg, var(--navy), var(--sky));
+    }
+    .mock-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+    .mock-nav span {
+      padding: 4px 8px; border-radius: 6px; background: #f0f3f7; color: var(--graphite);
+    }
+    .mock-nav .cta { background: var(--sky); color: #fff; }
+    .mock-hero-split {
+      display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 10px; min-height: 180px;
+    }
+    @media (max-width: 640px) { .mock-hero-split { grid-template-columns: 1fr; } }
+    .mock-photo {
+      background:
+        linear-gradient(135deg, rgba(34,40,73,.35), rgba(73,161,218,.25)),
+        repeating-linear-gradient(45deg, #c8d3df 0 8px, #b7c4d2 8px 16px);
+      border-radius: 10px; min-height: 180px;
+      display: flex; align-items: flex-end; padding: 12px; color: #fff;
+      font-family: var(--display); font-weight: 700; font-size: 0.9rem;
+    }
+    .mock-meta {
+      background: #fff; border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px; display: flex; flex-direction: column; gap: 8px;
+    }
+    .mock-meta .t { font-family: var(--display); font-weight: 700; font-size: 1.05rem; }
+    .mock-meta .s { font-size: 0.85rem; color: var(--slate); }
+    .mock-line { height: 8px; border-radius: 4px; background: #e8edf3; }
+    .mock-line.w60 { width: 60%; }
+    .mock-line.w40 { width: 40%; }
+    .mock-btn {
+      align-self: flex-start; margin-top: auto;
+      background: var(--navy); color: #fff; border: 0;
+      font-family: var(--display); font-size: 0.78rem; font-weight: 600;
+      padding: 8px 12px; border-radius: 8px;
+    }
+    .mock-editorial {
+      display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 0; min-height: 200px;
+      border-radius: 10px; overflow: hidden; border: 1px solid var(--border);
+    }
+    @media (max-width: 640px) { .mock-editorial { grid-template-columns: 1fr; } }
+    .mock-editorial .side {
+      background: var(--navy); color: #fff; padding: 16px;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .mock-editorial .side .t { font-family: var(--display); font-weight: 800; font-size: 1.15rem; }
+    .mock-editorial .photo {
+      min-height: 200px;
+      background:
+        linear-gradient(160deg, rgba(34,40,73,.2), transparent 40%),
+        repeating-linear-gradient(-20deg, #aebccc 0 10px, #9aadc0 10px 20px);
+    }
+    .mock-stack {
+      display: grid; gap: 8px;
+    }
+    .mock-stack .band {
+      height: 56px; border-radius: 8px;
+      background: repeating-linear-gradient(90deg, #b6c4d3 0 12px, #a5b6c8 12px 24px);
+    }
+    .mock-stack .band.tall { height: 140px; }
+    .mock-stack .caption {
+      display: flex; justify-content: space-between; gap: 10px; align-items: baseline;
+      font-family: var(--display); font-size: 0.9rem; font-weight: 700;
+    }
+    .mock-stack .caption span { color: var(--slate); font-weight: 500; font-size: 0.8rem; }
+    .choice {
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      background: #fff;
+    }
+    .choice.rec { border-color: #7cbc94; background: #f6fbf8; }
+    .choice .num {
+      font-family: var(--display); font-weight: 800; color: var(--sky); font-size: 0.85rem;
+      margin-bottom: 4px;
+    }
+    .decision-list {
+      display: grid; gap: 10px; margin-top: 8px;
+    }
+    .decision {
+      display: grid; grid-template-columns: 28px 1fr; gap: 10px;
+      align-items: start; padding: 12px; border-radius: 10px;
+      background: #fff8e8; border: 1px solid #f0d9a0;
+    }
+    .decision b {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--navy); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--display); font-size: 0.8rem;
+    }
+    .footer-note {
+      text-align: center; color: var(--slate); font-size: 0.9rem; margin-top: 28px;
+    }
+    .flow {
+      display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+      font-family: var(--display); font-weight: 600; font-size: 0.88rem;
+    }
+    .flow .box {
+      background: var(--navy); color: #fff; padding: 8px 12px; border-radius: 8px;
+    }
+    .flow .box.soft { background: #fff; color: var(--navy); border: 1px solid var(--border); }
+    .flow .box.sky { background: var(--sky); }
+    .flow .arrow { color: var(--slate); }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <strong>РеНова+ · предложения по дизайну (без кода сайта)</strong>
+    <nav>
+      <a href="#idea">Идея</a>
+      <a href="#nav">Навигация</a>
+      <a href="#filters">Фильтры</a>
+      <a href="#case">Карточка кейса</a>
+      <a href="#cta">Кнопки</a>
+      <a href="#decide">Что выбрать</a>
+    </nav>
+  </div>
+
+  <div class="wrap">
+    <h1>Лаконичный каталог для встреч — в духе РеНова+, не копия Ellis</h1>
+    <p class="lead">
+      Ниже — рабочие предложения по структуре и внешнему виду. Это не макет в Figma и не готовый сайт:
+      схематичные экраны, чтобы быстро согласовать направление. Откройте файл в браузере и пролистайте сверху вниз.
+    </p>
+
+    <section class="block" id="idea">
+      <span class="tag tag-rec">Рекомендуемое направление</span>
+      <h2>1. Общая идея</h2>
+      <p>
+        Каталог — инструмент встречи: за ~30 секунд найти похожую квартиру. Поэтому визуал спокойный,
+        воздух, фото на первом плане. Бренд РеНова+ чувствуется через navy + один голубой акцент,
+        логотип и чёткую типографику — без «пёстрых» плашек, градиентных кнопок и декоративных бейджей.
+      </p>
+      <div class="swatches" aria-label="Палитра">
+        <div class="swatch"><i style="background:#222849"></i><span>Navy</span></div>
+        <div class="swatch"><i style="background:#49A1DA"></i><span>Sky (CTA)</span></div>
+        <div class="swatch"><i style="background:#73859f"></i><span>Slate</span></div>
+        <div class="swatch"><i style="background:#ececec"></i><span>Mist фон</span></div>
+        <div class="swatch"><i style="background:#575756"></i><span>Текст</span></div>
+        <div class="swatch"><i style="background:#ffffff;border-bottom:1px solid #d5dbe3"></i><span>Белый</span></div>
+      </div>
+      <div class="grid-2">
+        <div class="card-soft">
+          <h3>Берём от Ellis (смысл, не картинка)</h3>
+          <ul class="clean">
+            <li>Две ветки: Дизайн / Ремонт</li>
+            <li>Перекрёстные ссылки, если оба вида работ по одному объекту</li>
+            <li>Photo-first, мало текста на первом экране</li>
+            <li>Понятный путь назад и к контактам</li>
+          </ul>
+        </div>
+        <div class="card-soft">
+          <h3>Делаем иначе, чем Ellis / прошлые каталоги</h3>
+          <ul class="clean">
+            <li>Светлый mist-фон + navy, без «каменного» luxury-тёмного</li>
+            <li>Гротеск Manrope (ближе к Gotham бренда), без serif-заголовков Ellis</li>
+            <li>Другой верх кейса на десктопе (см. блок «Карточка»)</li>
+            <li>Фильтр ЖК + площадь остаётся pragmatic-инструментом встречи</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="nav">
+      <span class="tag tag-rec">Навигация</span>
+      <h2>2. Шапка сайта — коротко и ясно</h2>
+      <p>
+        Слева логотип РеНова+. Справа только нужное: ветки каталога + действия.
+        Без длинного меню «как на лендинге».
+      </p>
+      <div class="wire">
+        <div class="wire-label">Схема шапки (десктоп)</div>
+        <div class="mock-chrome">
+          <div class="mock-logo" title="Логотип"></div>
+          <div class="mock-nav">
+            <span>Дизайн</span>
+            <span>Ремонт</span>
+            <span>Контакты</span>
+            <span class="cta">Заявка</span>
+            <span>Сайт РеНова+</span>
+          </div>
+        </div>
+        <p style="margin:0;font-size:0.9rem">
+          На телефоне: логотип + «Заявка» всегда видны; остальное — в компактном меню или нижней панели действий.
+        </p>
+      </div>
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card-soft">
+          <h3>Главная каталога</h3>
+          <p style="margin-bottom:8px">Не лендинг со статистикой. Один спокойный вход:</p>
+          <ul class="clean">
+            <li>Крупно: РеНова+</li>
+            <li>Короткая фраза про подбор объекта</li>
+            <li>Две большие кнопки: Дизайн / Ремонт</li>
+            <li>Сразу ниже — сетка или переход в ветку</li>
+          </ul>
+        </div>
+        <div class="card-soft">
+          <h3>Что не кладём в первый экран</h3>
+          <ul class="clean">
+            <li>Цифры «N объектов / гарантия / пакеты»</li>
+            <li>Адрес офиса и юр. блок</li>
+            <li>Несколько конкурирующих заголовков</li>
+            <li>Карточки-украшения без клика</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="filters">
+      <span class="tag tag-rec">Фильтры + перекрёстные ссылки</span>
+      <h2>3. Дизайн / Ремонт — и связь между ними</h2>
+      <p>
+        Верхний уровень — тип работ. Внутри ветки — привычные фильтры встречи: ЖК и площадь
+        (комнатность/пакет — по желанию, вторично).
+      </p>
+      <div class="pill-row">
+        <span class="pill on">Дизайн</span>
+        <span class="pill">Ремонт</span>
+        <span class="pill ghost">→ внутри:</span>
+        <span class="pill">ЖК</span>
+        <span class="pill">Площадь</span>
+      </div>
+      <div class="flow" style="margin:16px 0">
+        <span class="box">Объект в ЖК X</span>
+        <span class="arrow">→</span>
+        <span class="box soft">Кейс «Дизайн»</span>
+        <span class="arrow">↔</span>
+        <span class="box sky">Кейс «Ремонт»</span>
+      </div>
+      <div class="grid-2">
+        <div class="card-soft">
+          <h3>Если сделали и дизайн, и ремонт</h3>
+          <ul class="clean">
+            <li>Два отдельных кейса (свой набор фото)</li>
+            <li>В каждом — блок «Смотрите также»: ссылка на пару</li>
+            <li>В сетке можно бейдж «есть и дизайн / и ремонт» — тонкий, не кричащий</li>
+          </ul>
+        </div>
+        <div class="card-soft">
+          <h3>Если только одно</h3>
+          <ul class="clean">
+            <li>Кейс живёт только в своей ветке</li>
+            <li>Перекрёстной ссылки нет — пустых кнопок не рисуем</li>
+          </ul>
+        </div>
+      </div>
+      <p style="margin-top:14px;margin-bottom:0">
+        Важно для данных: в таблице от Карины заранее пометить пары «дизайн ↔ ремонт» одним id-связки.
+      </p>
+    </section>
+
+    <section class="block" id="case">
+      <span class="tag tag-ask">Нужен ваш выбор</span>
+      <h2>4. Верх карточки кейса — три варианта вместо «растянутой обложки»</h2>
+      <p>
+        Сейчас у прошлых каталогов на десктопе обложка тянется во всю ширину — из‑за этого сайты разных студий
+        визуально сливаются. Ниже три свежих композиции. Рекомендую вариант A.
+      </p>
+
+      <div class="grid-2" style="margin-top:8px">
+        <div class="choice rec">
+          <div class="num">ВАРИАНТ A · рекомендую</div>
+          <h3>Сплит: фото слева · паспорт справа</h3>
+          <p>
+            Обложка не на всю ширину. Слева крупное фото (примерно 55–60%), справа белая «паспортная» колонка:
+            ЖК, м², тип работ, короткая подпись, кнопка «Заявка» / перекрёстная ссылка.
+          </p>
+          <div class="wire">
+            <div class="wire-label">Десктоп · первый экран кейса</div>
+            <div class="mock-hero-split">
+              <div class="mock-photo">Обложка объекта</div>
+              <div class="mock-meta">
+                <div class="s">Ремонт · Уфа</div>
+                <div class="t">ЖК Пример · 54 м²</div>
+                <div class="mock-line"></div>
+                <div class="mock-line w60"></div>
+                <div class="mock-line w40"></div>
+                <button class="mock-btn" type="button">Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+          <ul class="clean" style="margin-top:10px">
+            <li>Плюс: сразу видно «что за объект», меньше похожести на другие каталоги</li>
+            <li>Минус: нужно хорошее вертикально/квадратное кадрирование обложки</li>
+          </ul>
+        </div>
+
+        <div class="choice">
+          <div class="num">ВАРИАНТ B</div>
+          <h3>Редакционный блок: navy-панель + фото</h3>
+          <p>
+            Слева тёмная navy-полоса с названием и фактами, справа фото. Акцент бренда сильнее,
+            чуть «презентационнее».
+          </p>
+          <div class="wire">
+            <div class="wire-label">Десктоп · первый экран кейса</div>
+            <div class="mock-editorial">
+              <div class="side">
+                <div>
+                  <div class="s" style="opacity:.7;font-size:.8rem;margin-bottom:6px">Дизайн</div>
+                  <div class="t">ЖК Пример</div>
+                  <div style="margin-top:8px;opacity:.85;font-size:.85rem">62 м² · 2 комнаты</div>
+                </div>
+                <div style="font-size:.8rem;opacity:.75">Смотреть ремонт →</div>
+              </div>
+              <div class="photo"></div>
+            </div>
+          </div>
+          <ul class="clean" style="margin-top:10px">
+            <li>Плюс: очень «РеНова+» по цвету, запоминается</li>
+            <li>Минус: легче переборщить с «тёмным люксом» — держать строго</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="choice" style="margin-top:16px">
+        <div class="num">ВАРИАНТ C</div>
+        <h3>Стек: название над фото, фото не full-bleed</h3>
+        <p>
+          Сверху строка заголовка (ЖК + м²), под ней фото в ограниченной ширине контента (не край в край экрана),
+          ниже галерея. Максимально спокойно, почти «альбом».
+        </p>
+        <div class="wire">
+          <div class="wire-label">Десктоп · первый экран кейса</div>
+          <div class="mock-stack">
+            <div class="caption">ЖК Пример · 48 м² <span>Ремонт</span></div>
+            <div class="band tall"></div>
+            <div class="band"></div>
+          </div>
+        </div>
+        <ul class="clean" style="margin-top:10px">
+          <li>Плюс: проще всего верстать, очень лаконично</li>
+          <li>Минус: слабее «вау» и отличия от типового портфолио</li>
+        </ul>
+      </div>
+
+      <p style="margin-top:16px;margin-bottom:0">
+        На мобиле у всех трёх вариантов логика одна: сначала фото, под ним паспорт объекта — без боковой колонки.
+      </p>
+    </section>
+
+    <section class="block" id="cta">
+      <span class="tag tag-rec">Действия</span>
+      <h2>5. Кнопки: контакты, заявка, основной сайт</h2>
+      <div class="vs">
+        <div class="card-soft">
+          <h3>Первичные</h3>
+          <ul class="clean">
+            <li><b>Заявка</b> — форма (имя, телефон, ЖК/площадь по желанию). Это главный лид с каталога.</li>
+            <li><b>Позвонить</b> / <b>Позвонить менеджеру</b> — tel: и WhatsApp рядом с формой (без имени в UI).</li>
+          </ul>
+        </div>
+        <div class="mid">+</div>
+        <div class="card-soft">
+          <h3>Вторичные</h3>
+          <ul class="clean">
+            <li><b>Контакты</b> — отдельная короткая страница или якорь: телефон, адрес, мессенджеры.</li>
+            <li><b>Основной сайт</b> — ссылка на remontvufe.ru (внешняя, без конкуренции с «Заявкой»).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pill-row" style="margin-top:14px">
+        <span class="pill sky">Оставить заявку</span>
+        <span class="pill on">Позвонить</span>
+        <span class="pill">Контакты</span>
+        <span class="pill ghost">Сайт РеНова+ ↗</span>
+      </div>
+      <p style="margin-bottom:0">
+        Форму предлагаю простой модалкой или отдельной страницей «Заявка» — без длинного квиза.
+        Поля: имя, телефон, комментарий («интересует похожий на …»). Куда уходит заявка — уточним (почта / мессенджер / CRM).
+      </p>
+    </section>
+
+    <section class="block">
+      <span class="tag tag-alt">Сетка каталога</span>
+      <h2>6. Как выглядят плитки в списке</h2>
+      <div class="grid-2">
+        <div class="card-soft">
+          <h3>Карточка в сетке</h3>
+          <ul class="clean">
+            <li>Фото 4:3 или 3:2</li>
+            <li>Подпись: ЖК · м²</li>
+            <li>Мелкая метка: Дизайн / Ремонт</li>
+            <li>Если есть пара — тонкая строка «есть и ремонт»</li>
+          </ul>
+        </div>
+        <div class="card-soft">
+          <h3>Внутри кейса ниже героя</h3>
+          <ul class="clean">
+            <li>Галерея фото</li>
+            <li>План / PDF — если есть</li>
+            <li>Видео — если есть</li>
+            <li>Перекрёстная ссылка + повтор CTA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="decide">
+      <span class="tag tag-rec">Зафиксировано 20.11.2026</span>
+      <h2>7. Согласованные решения</h2>
+      <div class="decision-list">
+        <div class="decision" style="background:#f6fbf8;border-color:#7cbc94">
+          <b>1</b>
+          <div>
+            <strong>Верх кейса:</strong> вариант A — сплит (фото слева, паспорт справа).
+          </div>
+        </div>
+        <div class="decision" style="background:#f6fbf8;border-color:#7cbc94">
+          <b>2</b>
+          <div>
+            <strong>Стартовый экран:</strong> две кнопки — Дизайн / Ремонт.
+          </div>
+        </div>
+        <div class="decision" style="background:#f6fbf8;border-color:#7cbc94">
+          <b>3</b>
+          <div>
+            <strong>Заявка:</strong> модальное окно.
+          </div>
+        </div>
+        <div class="decision" style="background:#f6fbf8;border-color:#7cbc94">
+          <b>4</b>
+          <div>
+            <strong>Куда слать заявки:</strong> почта (renovaufa@yandex.ru) и WhatsApp.
+            <div style="color:var(--graphite);font-size:0.92rem;margin-top:4px">В UI телефон: «Позвонить» / «Позвонить менеджеру» — без имени.</div>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top:16px;margin-bottom:0">
+        Следующий шаг по запросу: кликабельный HTML-прототип выбранного направления (ещё до реальных 15 кейсов).
+      </p>
+    </section>
+
+    <p class="footer-note">
+      Файл: docs/design-proposal.html · только обсуждение, код каталога не менялся
+    </p>
+  </div>
+</body>
+</html>

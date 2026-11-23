@@ -1,0 +1,127 @@
+{
+  "order": 31,
+  "id": "ufimskiy-kreml-42-repair",
+  "title": "ЖК Уфимский Кремль · 42 м²",
+  "address": "Уфа, ЖК Уфимский Кремль",
+  "areaSqm": 42,
+  "areaLabel": "42 м²",
+  "roomsLabel": "1-комнатная",
+  "branch": "repair",
+  "pairId": "ufimskiy-kreml-42",
+  "format": "Ремонт под ключ",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "ЖК Уфимский Кремль",
+  "tags": [
+    "42 м²",
+    "ЖК Уфимский Кремль",
+    "ремонт"
+  ],
+  "rooms": [
+    "Прихожая",
+    "Спальня",
+    "Гостиная",
+    "Кухня",
+    "Лоджия",
+    "Санузел"
+  ],
+  "hasProjectRender": false,
+  "hasVideo": false,
+  "cover": "assets/ufimskiy-kreml-42-repair/after-1.jpg",
+  "summary": "Ремонт под ключ квартиры 42 м² в ЖК Уфимский Кремль по дизайн-проекту: фото после сдачи.",
+  "task": "Реализовать ремонт квартиры по утверждённому дизайн-проекту.",
+  "objectDescription": "Фотофиксация результата ремонта. По объекту также есть полный дизайн-проект с визуализациями.",
+  "workList": [
+    "Ремонт под ключ",
+    "Реализация дизайн-проекта",
+    "Отделка помещений"
+  ],
+  "plan": {
+    "src": "assets/ufimskiy-kreml-42-repair/plan-1.png",
+    "alt": "План квартиры · ЖК Уфимский Кремль 42 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "42 м²",
+    "Фото после ремонта",
+    "Есть дизайн-проект"
+  ],
+  "clientFit": [
+    "Квартира около 42 м² в ЖК Уфимский Кремль",
+    "Нужен ремонт с дизайном"
+  ],
+  "gallery": [
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-1.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 1",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-2.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 2",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-3.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 3",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-4.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 4",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-5.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 5",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-6.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 6",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-7.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 7",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-8.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 8",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-9.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 9",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-10.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 10",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-11.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 11",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-12.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 12",
+      "caption": ""
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42-repair/after-13.jpg",
+      "alt": "ЖК Уфимский Кремль · после ремонта · фото 13",
+      "caption": ""
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

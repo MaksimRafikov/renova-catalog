@@ -1,0 +1,144 @@
+{
+  "order": 61,
+  "id": "oktyabrya-43-repair",
+  "title": "пр-т Октября · 43 м²",
+  "address": "Уфа, пр-т Октября",
+  "areaSqm": 43,
+  "areaLabel": "43 м²",
+  "roomsLabel": "1-комнатная",
+  "branch": "repair",
+  "pairId": "oktyabrya-43",
+  "format": "Ремонт под ключ",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "пр-т Октября",
+  "tags": [
+    "43 м²",
+    "пр-т Октября",
+    "вторичка",
+    "ремонт"
+  ],
+  "rooms": [
+    "Прихожая",
+    "Гостиная",
+    "Спальня",
+    "Санузел",
+    "Лоджия"
+  ],
+  "hasProjectRender": false,
+  "hasVideo": false,
+  "cover": "assets/oktyabrya-43-repair/after-1.jpg",
+  "summary": "Ремонт под ключ квартиры 43 м² на пр-т Октября (вторичка) по дизайн-проекту: фото до и после.",
+  "task": "Реализовать ремонт квартиры во вторичном фонде по утверждённому дизайн-проекту.",
+  "objectDescription": "Фотофиксация результата ремонта и состояния до начала работ. По объекту также есть полный дизайн-проект с визуализациями.",
+  "workList": [
+    "Ремонт под ключ",
+    "Реализация дизайн-проекта",
+    "Отделка помещений"
+  ],
+  "plan": {
+    "src": "assets/oktyabrya-43-repair/plan-1.png",
+    "alt": "План квартиры · пр-т Октября · 43 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "43 м²",
+    "Фото до и после",
+    "Есть дизайн-проект"
+  ],
+  "clientFit": [
+    "Квартира около 43 м² на пр-т Октября / вторичка",
+    "Нужен ремонт с дизайном"
+  ],
+  "gallery": [
+    {
+      "src": "assets/oktyabrya-43-repair/after-1.jpg",
+      "alt": "пр-т Октября · после ремонта · спальня",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-2.jpg",
+      "alt": "пр-т Октября · после ремонта · санузел",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-3.jpg",
+      "alt": "пр-т Октября · после ремонта · гостиная",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-4.jpg",
+      "alt": "пр-т Октября · после ремонта · прихожая",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-5.jpg",
+      "alt": "пр-т Октября · после ремонта · коридор",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-6.jpg",
+      "alt": "пр-т Октября · после ремонта · прихожая",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-7.jpg",
+      "alt": "пр-т Октября · после ремонта · санузел",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-8.jpg",
+      "alt": "пр-т Октября · после ремонта · лоджия",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-9.jpg",
+      "alt": "пр-т Октября · после ремонта · фото 9",
+      "caption": ""
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/after-10.jpg",
+      "alt": "пр-т Октября · после ремонта · спальня",
+      "caption": ""
+    }
+  ],
+  "beforeGallery": [
+    {
+      "src": "assets/oktyabrya-43-repair/before-1.jpg",
+      "alt": "пр-т Октября · до ремонта · фото 1",
+      "caption": "До"
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/before-2.jpg",
+      "alt": "пр-т Октября · до ремонта · фото 2",
+      "caption": "До"
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/before-3.jpg",
+      "alt": "пр-т Октября · до ремонта · фото 3",
+      "caption": "До"
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/before-4.jpg",
+      "alt": "пр-т Октября · до ремонта · фото 4",
+      "caption": "До"
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/before-5.jpg",
+      "alt": "пр-т Октября · до ремонта · фото 5",
+      "caption": "До"
+    },
+    {
+      "src": "assets/oktyabrya-43-repair/before-6.jpg",
+      "alt": "пр-т Октября · до ремонта · фото 6",
+      "caption": "До"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

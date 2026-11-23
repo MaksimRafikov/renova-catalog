@@ -1,0 +1,32 @@
+{
+  "siteUrl": "",
+  "siteName": "РеНова+",
+  "companyName": "РеНова+",
+  "city": "Уфа",
+  "region": "Республика Башкортостан",
+  "country": "RU",
+  "phone": "+7 (917) 770-90-99",
+  "phoneHref": "+79177709099",
+  "phoneLabel": "Менеджер",
+  "ctaPrimaryLabel": "Позвонить менеджеру",
+  "phoneSecondary": "+7 (347) 266-50-55",
+  "phoneSecondaryHref": "+73472665055",
+  "mainSite": "https://remontvufe.ru/",
+  "email": "renovaufa@yandex.ru",
+  "address": "Уфа, ул. Гоголя 72, БЦ «Урал Тау», 2 этаж, каб. 204",
+  "whatsapp": "https://wa.me/79177709099",
+  "telegram": "",
+  "max": "",
+  "vk": "",
+  "twoGis": "",
+  "quiz": "tel:+79177709099",
+  "logo": "assets/brand/logo.png",
+  "ogImage": "assets/brand/og-share.png",
+  "metrikaId": null,
+  "legal": {
+    "name": "ИП Асфандияров Руслан Салаватович",
+    "ogrnip": "322028000132161",
+    "inn": "027406145740"
+  },
+  "notes": "CTA лидов: +7 917 770-90-99 (в UI без имени менеджера: «Позвонить» / «Позвонить менеджеру»). Заявки: почта + WhatsApp. metrikaId / 2ГИС — после брифа."
+}

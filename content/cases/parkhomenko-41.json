@@ -1,0 +1,146 @@
+{
+  "order": 50,
+  "id": "parkhomenko-41",
+  "title": "Пархоменко · 41 м²",
+  "address": "Уфа, ул. Пархоменко",
+  "areaSqm": 41,
+  "areaLabel": "41 м²",
+  "roomsLabel": "1-комнатная",
+  "branch": "design",
+  "pairId": "parkhomenko-41-repair",
+  "format": "Дизайн-проект",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "Пархоменко",
+  "tags": [
+    "41 м²",
+    "Пархоменко",
+    "дизайн"
+  ],
+  "rooms": [
+    "Прихожая",
+    "Кухня",
+    "Спальня",
+    "Лоджия",
+    "Санузел"
+  ],
+  "hasProjectRender": true,
+  "hasVideo": false,
+  "cover": "assets/parkhomenko-41/after-4.jpg",
+  "summary": "Дизайн-проект квартиры 41 м² на ул. Пархоменко: прихожая, кухня с зоной отдыха, спальня, лоджия и санузел.",
+  "task": "Спроектировать современный интерьер компактной однокомнатной квартиры с удобной кухней-гостиной и спальней.",
+  "objectDescription": "Визуализации по всем помещениям: прихожая, кухня с обеденной зоной и ТВ, спальня, лоджия и ванная.",
+  "workList": [
+    "Дизайн-проект интерьера",
+    "Визуализации помещений",
+    "Планировочное решение"
+  ],
+  "plan": {
+    "src": "assets/parkhomenko-41/plan-1.png",
+    "alt": "План квартиры · Пархоменко · 41 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "41 м²",
+    "Полный комплект визуализаций",
+    "Есть реализованный ремонт"
+  ],
+  "clientFit": [
+    "Квартира около 41 м² на ул. Пархоменко",
+    "Нужен дизайн с последующим ремонтом"
+  ],
+  "gallery": [
+    {
+      "src": "assets/parkhomenko-41/after-4.jpg",
+      "alt": "Пархоменко · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-5.jpg",
+      "alt": "Пархоменко · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-6.jpg",
+      "alt": "Пархоменко · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-7.jpg",
+      "alt": "Пархоменко · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-8.jpg",
+      "alt": "Пархоменко · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-1.jpg",
+      "alt": "Пархоменко · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-2.jpg",
+      "alt": "Пархоменко · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-3.jpg",
+      "alt": "Пархоменко · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-9.jpg",
+      "alt": "Пархоменко · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-10.jpg",
+      "alt": "Пархоменко · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-11.jpg",
+      "alt": "Пархоменко · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-12.jpg",
+      "alt": "Пархоменко · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-13.jpg",
+      "alt": "Пархоменко · Лоджия",
+      "caption": "Лоджия"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-14.jpg",
+      "alt": "Пархоменко · Лоджия",
+      "caption": "Лоджия"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-15.jpg",
+      "alt": "Пархоменко · Санузел",
+      "caption": "Санузел"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-16.jpg",
+      "alt": "Пархоменко · Санузел",
+      "caption": "Санузел"
+    },
+    {
+      "src": "assets/parkhomenko-41/after-17.jpg",
+      "alt": "Пархоменко · Санузел",
+      "caption": "Санузел"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

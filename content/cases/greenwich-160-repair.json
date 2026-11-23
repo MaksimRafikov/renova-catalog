@@ -1,0 +1,260 @@
+{
+  "order": 11,
+  "id": "greenwich-160-repair",
+  "title": "ЖК Гринвич · 160 м²",
+  "address": "Уфа, ЖК Гринвич",
+  "areaSqm": 160,
+  "areaLabel": "160 м²",
+  "roomsLabel": "многокомнатная",
+  "branch": "repair",
+  "pairId": "greenwich-160",
+  "format": "Ремонт под ключ",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "ЖК Гринвич",
+  "tags": [
+    "160 м²",
+    "ЖК Гринвич",
+    "ремонт"
+  ],
+  "rooms": [
+    "Кухня-гостиная",
+    "Прихожая",
+    "Спальня",
+    "Детская",
+    "Кабинет",
+    "Комната 12",
+    "Комната 14",
+    "Гардероб",
+    "Постирочная",
+    "Санузел 1",
+    "Санузел 2",
+    "Санузел 3"
+  ],
+  "hasProjectRender": false,
+  "hasVideo": false,
+  "cover": "assets/greenwich-160-repair/after-1.jpg",
+  "summary": "Ремонт под ключ квартиры 160 м² в ЖК Гринвич по дизайн-проекту: фото до и после.",
+  "task": "Реализовать ремонт большой квартиры по утверждённому дизайн-проекту.",
+  "objectDescription": "Фотофиксация результата ремонта и состояния до начала работ. По объекту также есть полный дизайн-проект с визуализациями.",
+  "workList": [
+    "Ремонт под ключ",
+    "Реализация дизайн-проекта",
+    "Отделка помещений"
+  ],
+  "plan": {
+    "src": "assets/greenwich-160-repair/plan-1.png",
+    "alt": "План квартиры · ЖК Гринвич 160 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "160 м²",
+    "Фото до и после",
+    "Есть дизайн-проект"
+  ],
+  "clientFit": [
+    "Большая квартира в ЖК Гринвич",
+    "Нужен ремонт с дизайном"
+  ],
+  "gallery": [
+    {
+      "src": "assets/greenwich-160-repair/after-1.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 1",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-2.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 2",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-3.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 3",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-4.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 4",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-5.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 5",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-6.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 6",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-7.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 7",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-8.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 8",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-9.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 9",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-10.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 10",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-11.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 11",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-12.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 12",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-13.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 13",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-14.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 14",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-15.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 15",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-16.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 16",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-17.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 17",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-18.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 18",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-19.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 19",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-20.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 20",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-21.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 21",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-22.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 22",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-23.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 23",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-24.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 24",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-25.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 25",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-26.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 26",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-27.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 27",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-28.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 28",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-29.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 29",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-30.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 30",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-31.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 31",
+      "caption": ""
+    },
+    {
+      "src": "assets/greenwich-160-repair/after-32.jpg",
+      "alt": "ЖК Гринвич · после ремонта · фото 32",
+      "caption": ""
+    }
+  ],
+  "beforeGallery": [
+    {
+      "src": "assets/greenwich-160-repair/before-1.jpg",
+      "alt": "ЖК Гринвич · до ремонта · фото 1",
+      "caption": "До"
+    },
+    {
+      "src": "assets/greenwich-160-repair/before-2.jpg",
+      "alt": "ЖК Гринвич · до ремонта · фото 2",
+      "caption": "До"
+    },
+    {
+      "src": "assets/greenwich-160-repair/before-3.jpg",
+      "alt": "ЖК Гринвич · до ремонта · фото 3",
+      "caption": "До"
+    },
+    {
+      "src": "assets/greenwich-160-repair/before-4.jpg",
+      "alt": "ЖК Гринвич · до ремонта · фото 4",
+      "caption": "До"
+    },
+    {
+      "src": "assets/greenwich-160-repair/before-5.jpg",
+      "alt": "ЖК Гринвич · до ремонта · фото 5",
+      "caption": "До"
+    },
+    {
+      "src": "assets/greenwich-160-repair/before-6.jpg",
+      "alt": "ЖК Гринвич · до ремонта · фото 6",
+      "caption": "До"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

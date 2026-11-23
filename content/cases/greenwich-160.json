@@ -1,0 +1,293 @@
+{
+  "order": 10,
+  "id": "greenwich-160",
+  "title": "ЖК Гринвич · 160 м²",
+  "address": "Уфа, ЖК Гринвич",
+  "areaSqm": 160,
+  "areaLabel": "160 м²",
+  "roomsLabel": "многокомнатная",
+  "branch": "design",
+  "pairId": "greenwich-160-repair",
+  "format": "Дизайн-проект",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "ЖК Гринвич",
+  "tags": [
+    "160 м²",
+    "ЖК Гринвич",
+    "дизайн"
+  ],
+  "rooms": [
+    "Кухня-гостиная",
+    "Прихожая",
+    "Спальня",
+    "Детская",
+    "Кабинет",
+    "Комната 12",
+    "Комната 14",
+    "Гардероб",
+    "Постирочная",
+    "Санузел 1",
+    "Санузел 2",
+    "Санузел 3"
+  ],
+  "hasProjectRender": true,
+  "hasVideo": false,
+  "cover": "assets/greenwich-160/after-19.jpg",
+  "summary": "Дизайн-проект просторной квартиры 160 м² в ЖК Гринвич: кухня-гостиная, спальни, кабинет, гардероб и санузлы.",
+  "task": "Спроектировать интерьер большой многокомнатной квартиры с удобной планировкой зон.",
+  "objectDescription": "Визуализации по всем ключевым помещениям: от кухни-гостиной и прихожей до спален, кабинета, постирочной и санузлов.",
+  "workList": [
+    "Дизайн-проект интерьера",
+    "Визуализации помещений",
+    "Планировочное решение"
+  ],
+  "plan": {
+    "src": "assets/greenwich-160/plan-1.png",
+    "alt": "План квартиры · ЖК Гринвич 160 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "160 м²",
+    "Полный комплект визуализаций",
+    "Есть реализованный ремонт"
+  ],
+  "clientFit": [
+    "Большая квартира в ЖК Гринвич",
+    "Нужен дизайн с последующим ремонтом"
+  ],
+  "gallery": [
+    {
+      "src": "assets/greenwich-160/after-19.jpg",
+      "alt": "ЖК Гринвич · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/greenwich-160/after-20.jpg",
+      "alt": "ЖК Гринвич · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/greenwich-160/after-21.jpg",
+      "alt": "ЖК Гринвич · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/greenwich-160/after-22.jpg",
+      "alt": "ЖК Гринвич · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/greenwich-160/after-23.jpg",
+      "alt": "ЖК Гринвич · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/greenwich-160/after-24.jpg",
+      "alt": "ЖК Гринвич · Кухня-гостиная",
+      "caption": "Кухня-гостиная"
+    },
+    {
+      "src": "assets/greenwich-160/after-27.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-28.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-29.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-30.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-31.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-32.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-33.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-34.jpg",
+      "alt": "ЖК Гринвич · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/greenwich-160/after-43.jpg",
+      "alt": "ЖК Гринвич · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/greenwich-160/after-44.jpg",
+      "alt": "ЖК Гринвич · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/greenwich-160/after-45.jpg",
+      "alt": "ЖК Гринвич · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/greenwich-160/after-4.jpg",
+      "alt": "ЖК Гринвич · Детская",
+      "caption": "Детская"
+    },
+    {
+      "src": "assets/greenwich-160/after-5.jpg",
+      "alt": "ЖК Гринвич · Детская",
+      "caption": "Детская"
+    },
+    {
+      "src": "assets/greenwich-160/after-6.jpg",
+      "alt": "ЖК Гринвич · Детская",
+      "caption": "Детская"
+    },
+    {
+      "src": "assets/greenwich-160/after-7.jpg",
+      "alt": "ЖК Гринвич · Детская",
+      "caption": "Детская"
+    },
+    {
+      "src": "assets/greenwich-160/after-8.jpg",
+      "alt": "ЖК Гринвич · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/greenwich-160/after-9.jpg",
+      "alt": "ЖК Гринвич · Кабинет",
+      "caption": "Кабинет"
+    },
+    {
+      "src": "assets/greenwich-160/after-10.jpg",
+      "alt": "ЖК Гринвич · Комната 12",
+      "caption": "Комната 12"
+    },
+    {
+      "src": "assets/greenwich-160/after-11.jpg",
+      "alt": "ЖК Гринвич · Комната 12",
+      "caption": "Комната 12"
+    },
+    {
+      "src": "assets/greenwich-160/after-12.jpg",
+      "alt": "ЖК Гринвич · Комната 12",
+      "caption": "Комната 12"
+    },
+    {
+      "src": "assets/greenwich-160/after-13.jpg",
+      "alt": "ЖК Гринвич · Комната 12",
+      "caption": "Комната 12"
+    },
+    {
+      "src": "assets/greenwich-160/after-14.jpg",
+      "alt": "ЖК Гринвич · Комната 14",
+      "caption": "Комната 14"
+    },
+    {
+      "src": "assets/greenwich-160/after-15.jpg",
+      "alt": "ЖК Гринвич · Комната 14",
+      "caption": "Комната 14"
+    },
+    {
+      "src": "assets/greenwich-160/after-16.jpg",
+      "alt": "ЖК Гринвич · Комната 14",
+      "caption": "Комната 14"
+    },
+    {
+      "src": "assets/greenwich-160/after-17.jpg",
+      "alt": "ЖК Гринвич · Комната 14",
+      "caption": "Комната 14"
+    },
+    {
+      "src": "assets/greenwich-160/after-18.jpg",
+      "alt": "ЖК Гринвич · Комната 14",
+      "caption": "Комната 14"
+    },
+    {
+      "src": "assets/greenwich-160/after-1.jpg",
+      "alt": "ЖК Гринвич · Гардероб",
+      "caption": "Гардероб"
+    },
+    {
+      "src": "assets/greenwich-160/after-2.jpg",
+      "alt": "ЖК Гринвич · Гардероб",
+      "caption": "Гардероб"
+    },
+    {
+      "src": "assets/greenwich-160/after-3.jpg",
+      "alt": "ЖК Гринвич · Гардероб",
+      "caption": "Гардероб"
+    },
+    {
+      "src": "assets/greenwich-160/after-25.jpg",
+      "alt": "ЖК Гринвич · Постирочная",
+      "caption": "Постирочная"
+    },
+    {
+      "src": "assets/greenwich-160/after-26.jpg",
+      "alt": "ЖК Гринвич · Постирочная",
+      "caption": "Постирочная"
+    },
+    {
+      "src": "assets/greenwich-160/after-38.jpg",
+      "alt": "ЖК Гринвич · Санузел 1",
+      "caption": "Санузел 1"
+    },
+    {
+      "src": "assets/greenwich-160/after-39.jpg",
+      "alt": "ЖК Гринвич · Санузел 1",
+      "caption": "Санузел 1"
+    },
+    {
+      "src": "assets/greenwich-160/after-40.jpg",
+      "alt": "ЖК Гринвич · Санузел 1",
+      "caption": "Санузел 1"
+    },
+    {
+      "src": "assets/greenwich-160/after-41.jpg",
+      "alt": "ЖК Гринвич · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/greenwich-160/after-42.jpg",
+      "alt": "ЖК Гринвич · Санузел 2",
+      "caption": "Санузел 2"
+    },
+    {
+      "src": "assets/greenwich-160/after-35.jpg",
+      "alt": "ЖК Гринвич · Санузел 3",
+      "caption": "Санузел 3"
+    },
+    {
+      "src": "assets/greenwich-160/after-36.jpg",
+      "alt": "ЖК Гринвич · Санузел 3",
+      "caption": "Санузел 3"
+    },
+    {
+      "src": "assets/greenwich-160/after-37.jpg",
+      "alt": "ЖК Гринвич · Санузел 3",
+      "caption": "Санузел 3"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

@@ -1,0 +1,13 @@
+---
+description: Core rules for Renova+ catalog project
+alwaysApply: true
+---
+
+# РеНова+ — core
+
+- Читать сначала `STATUS.md` → `## Handoff`, затем `CLIENT.md` и `.ecc/session/atoms.md`.
+- Референсы: `docs/reference-zakomfortom.md`, `docs/reference-ellis.md`. Стек — `docs/stack-choice.md`.
+- Не копировать бренд, тексты, метрику, CTA из Ellis / За Комфортом в прод РеНова+.
+- Пока код не подключён — не изобретать второй стек «с нуля»; следовать выбранному референсу.
+- Медиа клиента класть в `inbox/`; в публичные пути — только обработанные `assets/`.
+- Фазы чатов: `NEW_CHAT_PLAYBOOK.md`. Смена фазы → обновить Handoff → новый чат.

@@ -1,0 +1,117 @@
+{
+  "order": 30,
+  "id": "ufimskiy-kreml-42",
+  "title": "ЖК Уфимский Кремль · 42 м²",
+  "address": "Уфа, ЖК Уфимский Кремль",
+  "areaSqm": 42,
+  "areaLabel": "42 м²",
+  "roomsLabel": "1-комнатная",
+  "branch": "design",
+  "pairId": "ufimskiy-kreml-42-repair",
+  "format": "Дизайн-проект",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "ЖК Уфимский Кремль",
+  "tags": [
+    "42 м²",
+    "ЖК Уфимский Кремль",
+    "дизайн"
+  ],
+  "rooms": [
+    "Прихожая",
+    "Спальня",
+    "Гостиная",
+    "Кухня",
+    "Лоджия",
+    "Санузел"
+  ],
+  "hasProjectRender": true,
+  "hasVideo": false,
+  "cover": "assets/ufimskiy-kreml-42/after-7.jpg",
+  "summary": "Дизайн-проект квартиры 42 м² в ЖК Уфимский Кремль: прихожая, спальня, гостиная, кухня, лоджия и санузел.",
+  "task": "Спроектировать современный интерьер компактной квартиры с продуманными зонами хранения и света.",
+  "objectDescription": "Визуализации по всем помещениям: прихожая, спальня, гостиная, кухня с обеденной зоной, лоджия и санузел.",
+  "workList": [
+    "Дизайн-проект интерьера",
+    "Визуализации помещений",
+    "Планировочное решение"
+  ],
+  "plan": {
+    "src": "assets/ufimskiy-kreml-42/plan-1.png",
+    "alt": "План квартиры · ЖК Уфимский Кремль 42 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "42 м²",
+    "Полный комплект визуализаций",
+    "Есть реализованный ремонт"
+  ],
+  "clientFit": [
+    "Квартира около 42 м² в ЖК Уфимский Кремль",
+    "Нужен дизайн с последующим ремонтом"
+  ],
+  "gallery": [
+    {
+      "src": "assets/ufimskiy-kreml-42/after-7.jpg",
+      "alt": "ЖК Уфимский Кремль · Кухня",
+      "caption": "Кухня"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-1.jpg",
+      "alt": "ЖК Уфимский Кремль · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-2.jpg",
+      "alt": "ЖК Уфимский Кремль · Прихожая",
+      "caption": "Прихожая"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-3.jpg",
+      "alt": "ЖК Уфимский Кремль · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-4.jpg",
+      "alt": "ЖК Уфимский Кремль · Спальня",
+      "caption": "Спальня"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-5.jpg",
+      "alt": "ЖК Уфимский Кремль · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-6.jpg",
+      "alt": "ЖК Уфимский Кремль · Гостиная",
+      "caption": "Гостиная"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-8.jpg",
+      "alt": "ЖК Уфимский Кремль · Лоджия",
+      "caption": "Лоджия"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-9.jpg",
+      "alt": "ЖК Уфимский Кремль · Санузел",
+      "caption": "Санузел"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-10.jpg",
+      "alt": "ЖК Уфимский Кремль · Санузел",
+      "caption": "Санузел"
+    },
+    {
+      "src": "assets/ufimskiy-kreml-42/after-11.jpg",
+      "alt": "ЖК Уфимский Кремль · Санузел",
+      "caption": "Санузел"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}

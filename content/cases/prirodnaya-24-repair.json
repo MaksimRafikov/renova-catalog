@@ -1,0 +1,118 @@
+{
+  "order": 41,
+  "id": "prirodnaya-24-repair",
+  "title": "Природная · 40 м²",
+  "address": "Уфа, ул. Природная",
+  "areaSqm": 40,
+  "areaLabel": "40 м²",
+  "roomsLabel": "2-комнатная",
+  "branch": "repair",
+  "pairId": "prirodnaya-24",
+  "format": "Ремонт под ключ",
+  "style": "Современный интерьер",
+  "segment": "Комфорт",
+  "complex": "Природная",
+  "tags": [
+    "40 м²",
+    "Природная",
+    "ремонт"
+  ],
+  "rooms": [
+    "Прихожая",
+    "Гостиная",
+    "Кухня",
+    "Детская",
+    "Санузел"
+  ],
+  "hasProjectRender": false,
+  "hasVideo": false,
+  "cover": "assets/prirodnaya-24-repair/after-1.jpg",
+  "summary": "Ремонт под ключ квартиры 40 м² на ул. Природная по дизайн-проекту: фото до и после.",
+  "task": "Реализовать ремонт квартиры по утверждённому дизайн-проекту.",
+  "objectDescription": "Фотофиксация результата ремонта и состояния до начала работ. По объекту также есть полный дизайн-проект с визуализациями.",
+  "workList": [
+    "Ремонт под ключ",
+    "Реализация дизайн-проекта",
+    "Отделка помещений"
+  ],
+  "plan": {
+    "src": "assets/prirodnaya-24-repair/plan-1.png",
+    "alt": "План квартиры · Природная · 40 м²",
+    "caption": "План"
+  },
+  "highlights": [
+    "40 м²",
+    "Фото до и после",
+    "Есть дизайн-проект"
+  ],
+  "clientFit": [
+    "Квартира около 40 м² на ул. Природная",
+    "Нужен ремонт с дизайном"
+  ],
+  "gallery": [
+    {
+      "src": "assets/prirodnaya-24-repair/after-1.jpg",
+      "alt": "Природная · после ремонта · санузел",
+      "caption": ""
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/after-2.jpg",
+      "alt": "Природная · после ремонта · санузел",
+      "caption": ""
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/after-3.jpg",
+      "alt": "Природная · после ремонта · комната",
+      "caption": ""
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/after-5.jpg",
+      "alt": "Природная · после ремонта · прихожая",
+      "caption": ""
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/after-4.jpg",
+      "alt": "Природная · после ремонта · деталь",
+      "caption": ""
+    }
+  ],
+  "beforeGallery": [
+    {
+      "src": "assets/prirodnaya-24-repair/before-1.jpg",
+      "alt": "Природная · до ремонта · фото 1",
+      "caption": "До"
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/before-2.jpg",
+      "alt": "Природная · до ремонта · фото 2",
+      "caption": "До"
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/before-3.jpg",
+      "alt": "Природная · до ремонта · фото 3",
+      "caption": "До"
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/before-4.jpg",
+      "alt": "Природная · до ремонта · фото 4",
+      "caption": "До"
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/before-5.jpg",
+      "alt": "Природная · до ремонта · фото 5",
+      "caption": "До"
+    },
+    {
+      "src": "assets/prirodnaya-24-repair/before-6.jpg",
+      "alt": "Природная · до ремонта · фото 6",
+      "caption": "До"
+    }
+  ],
+  "cta": {
+    "phone": "+7 (917) 770-90-99",
+    "whatsapp": "https://wa.me/79177709099",
+    "telegram": "tel:+79177709099",
+    "quiz": "tel:+79177709099",
+    "buttonLabel": "Позвонить менеджеру"
+  }
+}
