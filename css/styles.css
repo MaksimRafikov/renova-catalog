@@ -244,11 +244,16 @@ img {
   color: var(--accent) !important;
 }
 
-/* Home gate: editorial split — navy + 4:3 photo plate; footer stays below. */
+/* Home gate: editorial split — navy + 4:3 photo plate; footer stays below.
+   --rail-start matches header logo / footer brand (layout-max + page-gutter). */
 .gate {
-  --gate-pad-x: calc(1.25rem + var(--safe-left));
-  --gate-pad-x-end: calc(1.25rem + var(--safe-right));
+  --gate-pad-x: var(--inset-left);
+  --gate-pad-x-end: var(--inset-right);
   --gate-photo-ratio: 1024 / 768;
+  --rail-start: max(
+    var(--inset-left),
+    calc((100% - var(--layout-max)) / 2 + var(--page-gutter))
+  );
   display: grid;
   grid-template-columns: 1fr;
   /* Photo sizes to its ratio; copy fills the rest — no forced tall blue band */
@@ -381,15 +386,18 @@ img {
   }
 }
 
-/* Tablet landscape+: split with contain — full group, navy bands (not studio blue). */
+/* Tablet landscape+: split; col1 = rail spacer (= logo / footer brand). */
 @media (min-width: 900px) {
   .gate {
-    grid-template-columns: minmax(16rem, 0.72fr) minmax(0, 1.35fr);
+    grid-template-columns:
+      var(--rail-start)
+      minmax(14rem, 0.72fr)
+      minmax(0, 1.35fr);
     grid-template-rows: 1fr;
   }
 
   .gate__media {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
     aspect-ratio: auto;
     height: 100%;
@@ -409,7 +417,7 @@ img {
   }
 
   .gate__copy {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 1;
     width: auto;
     max-width: none;
@@ -417,9 +425,9 @@ img {
     gap: 0.75rem;
     padding:
       clamp(2rem, 6vh, 3.5rem)
-      clamp(1.5rem, 3vw, 2.5rem)
+      clamp(1.25rem, 2.5vw, 2rem)
       clamp(2rem, 6vh, 3.5rem)
-      clamp(1.75rem, 4vw, 3.25rem);
+      0;
   }
 
   .gate__title {
@@ -442,7 +450,10 @@ img {
 /* Wide desktop: column wide enough for full-bleed cover */
 @media (min-width: 1200px) {
   .gate {
-    grid-template-columns: minmax(22rem, 0.85fr) minmax(0, 1.25fr);
+    grid-template-columns:
+      var(--rail-start)
+      minmax(18rem, 0.85fr)
+      minmax(0, 1.25fr);
   }
 
   .gate__img {
@@ -451,8 +462,7 @@ img {
   }
 
   .gate__copy {
-    padding-left: clamp(2.5rem, 5vw, 4.5rem);
-    padding-right: clamp(2rem, 3vw, 3rem);
+    padding-right: clamp(1.5rem, 2.5vw, 2.75rem);
   }
 
   .gate__title {
