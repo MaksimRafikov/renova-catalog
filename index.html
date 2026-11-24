@@ -30,7 +30,7 @@
     />
     <meta property="og:image" content="assets/brand/og-share.png" />
 
-    <link rel="stylesheet" href="css/styles.css?v=c6e0bdce8b" />
+    <link rel="stylesheet" href="css/styles.css?v=520a3d2f49" />
 
     <!-- build:jsonld -->
     <script type="application/ld+json">
@@ -162,15 +162,31 @@
     </header>
 
     <main>
-      <div class="container page-flow">
-        <section class="gate" id="gate" aria-label="Выбор направления">
+      <section class="gate" id="gate" aria-label="Выбор направления">
+        <div class="gate__media">
+          <picture>
+            <source type="image/webp" srcset="assets/brand/hero/hero-team.webp" />
+            <img
+              class="gate__img"
+              src="assets/brand/hero/hero-team.jpg"
+              alt="Команда РеНова+ в студии"
+              width="1024"
+              height="768"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </picture>
+        </div>
+        <div class="gate__copy">
           <h1 class="gate__title">Каталог объектов</h1>
           <div class="gate__actions">
-            <a class="gate__btn" href="?branch=design">Дизайн</a>
-            <a class="gate__btn gate__btn--sky" href="?branch=repair">Ремонт</a>
+            <a class="btn gate__btn" href="?branch=design">Дизайн</a>
+            <a class="btn btn--primary gate__btn gate__btn--sky" href="?branch=repair">Ремонт</a>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <div class="container page-flow" id="catalog-shell">
         <div id="catalog-view" hidden>
           <header class="branch-head">
             <h1 class="branch-head__title" id="branch-title">Дизайны</h1>

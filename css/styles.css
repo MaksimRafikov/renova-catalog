@@ -71,24 +71,24 @@ main {
   flex: 1;
 }
 
-/* Gate home: vertically centered; left edge = header logo / footer */
+/* Gate home: full-bleed editorial stage fills viewport under header */
+body:has(#gate:not([hidden])) {
+  background: var(--navy);
+}
+
 body:has(#gate:not([hidden])) main {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  min-height: 0;
 }
 
-body:has(#gate:not([hidden])) main > .page-flow {
-  flex: 1 1 auto;
-  align-self: stretch;
-  width: 100%;
-  max-width: var(--layout-max);
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: flex-start;
-  padding-block: 1.5rem;
+body:has(#gate:not([hidden])) .site-footer {
+  display: none;
+}
+
+body:has(#gate:not([hidden])) #catalog-shell:not(:has(#catalog-view:not([hidden]))) {
+  display: none;
 }
 
 a {
@@ -247,14 +247,21 @@ img {
   color: var(--accent) !important;
 }
 
-/* Home gate: title + two branches */
+/* Home gate: editorial split — navy + 4:3 photo plate (no blue letterbox). */
 .gate {
-  padding-block: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  --gate-pad-x: calc(1.25rem + var(--safe-left));
+  --gate-pad-x-end: calc(1.25rem + var(--safe-right));
+  --gate-photo-ratio: 1024 / 768;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* Photo sizes to its ratio; copy fills the rest — no forced tall blue band */
+  grid-template-rows: auto 1fr;
   width: 100%;
-  animation: gate-in 480ms ease-out both;
+  min-height: calc(100svh - 4.5rem);
+  flex: 1 1 auto;
+  background: var(--navy);
+  color: #fff;
+  overflow: hidden;
 }
 
 .gate[hidden],
@@ -262,69 +269,203 @@ img {
   display: none !important;
 }
 
+.gate__media {
+  position: relative;
+  min-height: 0;
+  width: 100%;
+  aspect-ratio: var(--gate-photo-ratio);
+  background: var(--navy);
+  overflow: hidden;
+  animation: gate-media-in 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.gate__media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gate__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* Plate matches photo ratio → cover fills edge-to-edge, people intact */
+  object-fit: cover;
+  object-position: center center;
+}
+
+.gate__copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.65rem;
+  padding: 1.35rem var(--gate-pad-x-end) calc(1.75rem + var(--safe-bottom)) var(--gate-pad-x);
+  background: var(--navy);
+}
+
 .gate__title {
-  margin: 0 0 1.75rem;
+  margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.2rem, 2.5vw, 1.45rem);
-  font-weight: 600;
-  color: var(--slate);
-  letter-spacing: -0.01em;
+  font-size: clamp(2.1rem, 8vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: #fff;
+  animation: gate-copy-in 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .gate__actions {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.85rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 24rem;
+  margin-top: 0;
+  animation: gate-copy-in 520ms cubic-bezier(0.22, 1, 0.36, 1) 80ms both;
 }
 
+/* Gate CTAs: white Дизайн + sky Ремонт; hover grow, :active press */
 .gate__btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 10.5rem;
-  min-height: var(--control-h);
-  padding: 0.95rem 1.6rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--navy);
-  background: var(--navy);
-  color: #fff;
+  min-width: 0;
+  border: 1.5px solid #fff;
+  background: #fff;
+  color: var(--navy);
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   font-weight: 700;
-  text-decoration: none;
+  transform: scale(1);
   transition:
     background var(--motion-fast) var(--ease-out),
     border-color var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out),
     transform var(--motion-fast) var(--ease-out);
 }
 
 .gate__btn:hover {
-  background: #2c3358;
-  border-color: #2c3358;
-  color: #fff;
+  background: #fff;
+  border-color: #fff;
+  color: var(--navy);
   text-decoration: none;
-  transform: translateY(-1px);
-}
-
-.gate__btn:active {
-  transform: scale(0.97);
+  transform: scale(1.04);
 }
 
 .gate__btn--sky {
   background: var(--accent);
   border-color: var(--accent);
+  color: #fff;
 }
 
-.gate__btn--sky:hover {
+.gate__btn--sky:hover,
+.gate__btn.btn--primary:hover {
   background: var(--accent-hover);
   border-color: var(--accent-hover);
+  color: #fff;
+  transform: scale(1.04);
+}
+
+.gate__btn:active,
+.gate__btn.btn:active {
+  transform: scale(0.97);
 }
 
 .gate__btn:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid #fff;
   outline-offset: 3px;
+}
+
+@media (max-width: 699px) and (max-height: 720px) {
+  .gate {
+    min-height: calc(100svh - 4.25rem);
+  }
+
+  .gate__copy {
+    gap: 0.5rem;
+    padding-block: 1.35rem 1.5rem;
+  }
+
+  .gate__title {
+    font-size: clamp(1.9rem, 7.5vw, 2.4rem);
+  }
+}
+
+/* Tablet landscape+: split with contain — full group, navy bands (not studio blue). */
+@media (min-width: 900px) {
+  .gate {
+    grid-template-columns: minmax(16rem, 0.72fr) minmax(0, 1.35fr);
+    grid-template-rows: 1fr;
+    min-height: calc(100svh - 4.75rem);
+  }
+
+  .gate__media {
+    grid-column: 2;
+    grid-row: 1;
+    aspect-ratio: auto;
+    height: 100%;
+    background: var(--navy);
+    animation: gate-media-in-side 760ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .gate__media picture {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gate__img {
+    object-fit: contain;
+    object-position: center center;
+    background: var(--navy);
+  }
+
+  .gate__copy {
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    max-width: none;
+    justify-content: center;
+    gap: 0.75rem;
+    padding:
+      clamp(2rem, 6vh, 3.5rem)
+      clamp(1.5rem, 3vw, 2.5rem)
+      clamp(2rem, 6vh, 3.5rem)
+      clamp(1.75rem, 4vw, 3.25rem);
+  }
+
+  .gate__title {
+    font-size: clamp(2.35rem, 3.5vw, 3.25rem);
+  }
+
+  .gate__actions {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: none;
+    gap: 0.85rem;
+  }
+
+  .gate__btn {
+    min-width: 9.5rem;
+    padding-inline: 1.5rem;
+  }
+}
+
+/* Wide desktop: column wide enough for full-bleed cover */
+@media (min-width: 1200px) {
+  .gate {
+    grid-template-columns: minmax(22rem, 0.85fr) minmax(0, 1.25fr);
+  }
+
+  .gate__img {
+    object-fit: cover;
+    object-position: center 42%;
+  }
+
+  .gate__copy {
+    padding-left: clamp(2.5rem, 5vw, 4.5rem);
+    padding-right: clamp(2rem, 3vw, 3rem);
+  }
+
+  .gate__title {
+    font-size: clamp(2.75rem, 3.4vw, 3.5rem);
+  }
 }
 
 .branch-head {
@@ -352,6 +493,39 @@ img {
 
 .branch-head .lead {
   margin-top: 0.55rem;
+}
+
+@keyframes gate-copy-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes gate-media-in {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes gate-media-in-side {
+  from {
+    opacity: 0;
+    transform: translateX(18px) scale(1.02);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @keyframes gate-in {
@@ -2123,10 +2297,6 @@ a.card:hover,
   .nav-links button {
     font-size: 0.875rem;
     line-height: 1.25;
-  }
-
-  .gate {
-    padding-block: 0;
   }
 
   .gate__btn {

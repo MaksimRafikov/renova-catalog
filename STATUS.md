@@ -5,14 +5,15 @@
 
 ## Handoff
 
-- **Фаза сейчас:** **content-prep** + временный preview на GitHub Pages
-- **Цель чата:** показать заказчику черновик каталога; дальше — следующий объект по описи
-- **Критерий готово:** публичная preview-ссылка GitHub Pages; кейсы в `content/cases/` + `assets/`
-- **Лог / прогресс:** ✅ UI-pass 2026-11-20; ✅ case UX; ✅ 6 пар (Гринвич / Яркий / Уфимский Кремль / Природная / Пархоменко / пр-т Октября); ✅ опись Я.Диска; ✅ **временный preview:** https://maksimrafikov.github.io/renova-catalog/ (repo `MaksimRafikov/renova-catalog`, Actions → `_site/`)
-- **Блокер:** выбор следующих объектов из описи (полная волна 15); финальный поддомен — отдельно
-- **Samples / ключевые файлы:** `docs/inventory-design-projects-yadisk.xlsx`, `content/cases/`, `.github/workflows/deploy-pages.yml`, `scripts/export-public-site.py`
-- **Не делать без запроса:** финальный DNS/поддомен; полный медиа-batch 15 без выбора; обещать сроки; имя менеджера в UI
-- **Следующее после content:** visual-qa точечно / прод-поддомен по согласованию
+- **Фаза сейчас:** **implement → visual-qa** (поверхность: **home gate** — ждать отзыв)
+- **Цель чата:** ✅ пересобран стартовый экран (editorial split, photo-first, без оверлея на лица)
+- **Критерий готово:** ✅ `.gate` full-bleed split; Дизайн/Ремонт + `?branch=` ок; скрины desktop+mobile в `.ecc/session/offload/gate-v2/`; без авто-деплоя
+- **Лог / прогресс:** ✅ gate v2: `hero-team` на все форматы; phone stack 4:3; tablet≥900 split+contain; desktop≥1200 cover; CTA белая/sky + hover scale; publish Pages по запросу 2026-11-24
+- **Блокер / отзыв:** нужен визуальный OK владельца на новый вход
+- **Samples / ключевые файлы:** `index.html`, `css/styles.css`, `assets/brand/hero/hero-team.*`, `docs/qa-gate/show-*.png`
+- **Не делать без запроса:** клон Ellis; карточки/кейсы; DNS; batch 15; имя менеджера в UI
+- **Следующее:** visual-qa gate / content-prep (таблица Карины)
+- **Preview:** https://maksimrafikov.github.io/renova-catalog/
 - **Новый чат:** вставить шаблон ниже
 
 ### UI-pass из рилсов — done (2026-11-20)
@@ -60,7 +61,8 @@
 --- первый сообщение нового чата ---
 
 Прочитай только STATUS.md → ## Handoff, CLIENT.md, .ecc/session/atoms.md.
-Фаза: content-prep. Стек: static. В каталоге 6 пар (Гринвич / Яркий / Уфимский Кремль / Природная / Пархоменко / пр-т Октября).
-Цель: следующий объект / таблица Карины → кейсы в каталог.
-Не делать: деплой/DNS; обещать сроки; имя менеджера в UI; полный batch 15 без таблицы.
-Сделать: разобрать материалы → JSON + assets → build → обновить Handoff.
+Фаза: implement (поверхность home / .gate). Стек: static. Референс UX (не клон): https://ellis.show-me-design.ru/ + docs/reference-ellis.md.
+Контекст: текущий gate с team-hero и текстом поверх фото отвергнут — «устаревший, не впечатляет». Нравится Ellis: бренд + крупное фото + два CTA без оверлея на лица.
+Сделать: новый современный стартовый экран РеНова+ (photo-first, full-bleed или editorial split; токены РеНова+; Manrope/Source Sans ok). Сохранить ветки Дизайн/Ремонт и ?branch=. Можно переиспользовать assets/brand/hero/, но не обязательно текстом поверх людей.
+Не делать: копировать Ellis look 1:1; трогать карточки/кейсы; деплой без запроса; имя менеджера в UI.
+Skills: frontend-design → код → kill-ai-slop. Показать скриншоты desktop+mobile; обновить Handoff.
