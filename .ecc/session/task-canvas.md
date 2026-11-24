@@ -1,10 +1,15 @@
-# Task canvas — РеНова+ content-prep
+# Task canvas — gate v2
 
 ```mermaid
 flowchart LR
-  A[ЖК Гринвич 160] --> B[ЖК Яркий 76]
-  B --> C[ЖК Уфимский Кремль 42]
-  C --> D[следующие объекты / таблица]
+  A[Rejected overlay gate] --> B[Editorial split]
+  B --> C[Desktop: navy | photo]
+  B --> D[Mobile: photo then copy]
+  C --> E[QA screenshots]
+  D --> E
+  E --> F[Footer restored on gate]
+  F --> G[Await visual OK]
 ```
 
-**Status:** Гринвич + Яркий + Уфимский Кремль в каталоге (2026-11-20). Next: остальные кейсы из наполнения / таблица Карины.
+- Done: gate rewrite; footer again visible on home gate (CSS hide removed).
+- Wait: owner visual OK on gate.

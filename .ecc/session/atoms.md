@@ -56,6 +56,6 @@
 - План на кейсе: PNG `Схема` / `Схема-1` + `.gallery--plan` (`object-fit: contain`), без кропа 4:3 на превью.
 - Медиа: при optimize всегда `ImageOps.exif_transpose` — иначе iPhone Orientation=6 даёт кадры «на боку» после снятия EXIF.
 - Gate hero v1 (team photo + overlay text) **отклонён** 2026-11-24: «устаревший, не впечатляет».
-- Gate v2 (2026-11-24): `hero-team` на все форматы; phone stack 4:3 cover; tablet≥900 split+contain (navy); desktop≥1200 cover; H1 + CTA (Дизайн белая, hover 1.04); footer скрыт на gate.
+- Gate v2 (2026-11-24): `hero-team` на все форматы; phone stack 4:3 cover; tablet≥900 split+contain (navy); desktop≥1200 cover; H1 + CTA (Дизайн белая, hover 1.04); **footer снова на gate** (скрытие снято 2026-11-24).
 - Референс UX: Ellis home (photo + brand + 2 CTA); визуал РеНова+ (navy/sky, Manrope).
 - Скриншоты: `.ecc/session/offload/gate-v2/`. Следующее: **visual-qa / отзыв** → preview по запросу.

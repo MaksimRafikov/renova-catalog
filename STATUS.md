@@ -8,7 +8,7 @@
 - **Фаза сейчас:** **implement → visual-qa** (поверхность: **home gate** — ждать отзыв)
 - **Цель чата:** ✅ пересобран стартовый экран (editorial split, photo-first, без оверлея на лица)
 - **Критерий готово:** ✅ `.gate` full-bleed split; Дизайн/Ремонт + `?branch=` ок; скрины desktop+mobile в `.ecc/session/offload/gate-v2/`; без авто-деплоя
-- **Лог / прогресс:** ✅ gate v2: `hero-team` на все форматы; phone stack 4:3; tablet≥900 split+contain; desktop≥1200 cover; CTA белая/sky + hover scale; publish Pages по запросу 2026-11-24
+- **Лог / прогресс:** ✅ gate v2: `hero-team` на все форматы; phone stack 4:3; tablet≥900 split+contain; desktop≥1200 cover; CTA белая/sky + hover scale; publish Pages по запросу 2026-11-24; ✅ footer на gate возвращён (CSS hide снят)
 - **Блокер / отзыв:** нужен визуальный OK владельца на новый вход
 - **Samples / ключевые файлы:** `index.html`, `css/styles.css`, `assets/brand/hero/hero-team.*`, `docs/qa-gate/show-*.png`
 - **Не делать без запроса:** клон Ellis; карточки/кейсы; DNS; batch 15; имя менеджера в UI
